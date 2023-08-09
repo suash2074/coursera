@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+.navbar{
+  border-bottom: 1px solid #00000f;
+}
+.navbar-brand{
+    font-size: 2.5em;
+}
+.nav-item{
+/*  border-top: 1px solid white;*/
+border-bottom: 2px solid white;
+}
+.menu{
+  margin: 30px;
+  padding:10px;
+  text-align: center;
+  font-size: 2.2em;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+article{
+  margin: 6px;
+  background-color: #d1cfcf;
+  border: 1px solid #000000;
+  float: left;
+}
+
+article:hover{
+  margin: 8px;
+  background-color: #d1cfcf;
+  box-shadow: 5px 5px 5px #8c8b8b;
+  transition: 0.56s ease;
+}
+
+div h2{
+  width: 120px;
+  text-align: center;
+  margin-bottom: 15px;
+  float: right;
+  font-size: 20px;
+  padding: 5px;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+
+.description {
+  clear: right;
+  padding: 20px;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.chicken{
+  background-color: #ed6f6f;
+}
+
+.beef{
+  background-color: #71eb85;
+}
+
+.sushi{
+  background-color: #72c4ed;
+}
+/**** Desktop Devices Only ****/
+
+@media (min-width: 992px) {
+
+  .invisible-lg{
+    visibility: hidden;
+  }
+  .col-lg-4 {
+    width: 31.5%;
+  }
+}
+
+/**** Tablate Devices Only ****/
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .col-md-6 {
+    width: 47.5%;
+  }
+  .col-md-12 {
+    width: 97%;
+  }
+  .invisible-md{
+    visibility: hidden;
+  }
+}
+
+/**** Mobile Devices Only ****/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  }
+    
+  .col-sm-12 {
+    width: 98.5%;
+  }
+
+  .visible-sm{
+visibility: visible;
+  }
+}
