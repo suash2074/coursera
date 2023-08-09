@@ -3,10 +3,14 @@
   margin:0;
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
+  scroll-behavior: smooth;
 }
+
+/*Navbar CSS*/
 .navbar{
   border-bottom: 1px solid #00000f;
 }
+
 .navbar-brand{
     font-size: 2.5em;
 }
@@ -14,6 +18,8 @@
 /*  border-top: 1px solid white;*/
 border-bottom: 2px solid white;
 }
+/*End of navbar CSS*/
+
 .menu{
   margin: 30px;
   padding:10px;
@@ -69,8 +75,8 @@ div h2{
 .sushi{
   background-color: #72c4ed;
 }
-/**** Desktop Devices Only ****/
 
+/**** Desktop Devices Only ****/
 @media (min-width: 992px) {
 
   .invisible-lg{
@@ -104,7 +110,7 @@ div h2{
     width: 98.5%;
   }
 
-  .visible-sm{
-visibility: visible;
-  }
+  /*.visible-sm{
+    visibility: visible;
+  }*/
 }
